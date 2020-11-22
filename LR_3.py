@@ -80,7 +80,6 @@ for t in np.arange(0, t1, dt1):
     t1_list.append(t)
     xi = x(dt1, xi, B1, B_A1)
     x1_list.append(xi)
-print(t1_list[-1])
 
 # Расчитываем окисление второго слоя:
 
